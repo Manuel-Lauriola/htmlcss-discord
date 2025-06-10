@@ -126,6 +126,10 @@ background-color: orange;
   color: #3160e0;
 }
 
+.dark-text{
+  color: #23272a;
+}
+
 .white-aura{
   background-color: white;
   border-radius: 45%;
