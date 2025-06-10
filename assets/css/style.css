@@ -2,6 +2,7 @@
   margin: 0px;
   padding: 0px;
   box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 header{
@@ -76,10 +77,6 @@ background-color: orange;
   background-color: cyan;
 }
 
-.font{
-  font-family: Arial, Helvetica, sans-serif;
-}
-
 .font-size-2{
   font-size: 20px;
 }
@@ -103,7 +100,14 @@ background-color: orange;
 
 .white-aura{
   background-color: white;
-  border-radius: 50%;
+  border-radius: 45%;
+  padding: 10px;
+}
+
+.black-aura{
+  background-color: black;
+  border-radius: 45%;
+  padding: 10px;
 }
 
 .padding10 {
@@ -157,6 +161,9 @@ background-color: orange;
 .container-sm{
  width: 500px;
  min-height: 250px;
+ display: flex;
+ flex-direction: column;
+ justify-content: space-around;
  justify-self: center;
  align-self: center;
 }
@@ -170,12 +177,12 @@ background-color: orange;
   width: 1000px;
   height: 500px;
   justify-self: center;
-  align-self: center;
+  align-self: flex-end;
 }
 
 .container-mini{
  width: 500px;
- height: 50px;
+ min-height: 50px;
  display: flex;
  justify-content: space-between;
  align-items: center;
