@@ -25,6 +25,16 @@ ul{
 
 /*utility*/
 
+.bg-trasparent{
+  background-color: transparent;
+}
+
+.bg-img{
+  background-image: url(../img/jumbo.png);
+  background-position: center;
+  background-size: cover;
+}
+
 .border-black{
   border: solid 2px black;
 }
