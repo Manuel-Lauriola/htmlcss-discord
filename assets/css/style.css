@@ -105,8 +105,25 @@ background-color: orange;
   vertical-align: baseline;
 }
 
+.text-align2{
+  text-align: center;
+  vertical-align: middle;
+}
+
+.vertical-align-center{
+  vertical-align: middle;
+}
+
+.list-none{
+  list-style: none;
+}
+
 .text-black{
   color: black;
+}
+
+.blue-text{
+  color: #3160e0;
 }
 
 .white-aura{
@@ -121,6 +138,11 @@ background-color: orange;
   padding: 10px;
 }
 
+.blue-aura{
+  background-color: rgb(101, 101, 228);
+  border-radius: 45%;
+  padding: 10px;}
+
 .padding10 {
   padding: 10px 50px;
 }
@@ -133,10 +155,20 @@ background-color: orange;
   padding: 50px;
 }
 
-.display-column{
+.margin-35{
+  margin: 35px;
+ }
+
+.display-column {
   display: flex;
-  flex-direction: column;
-  justify-content: space-between;
+  flex-direction: column;}
+
+.align-start{
+  align-items: start;
+}
+
+.center{
+  justify-content: center;
   align-items: center;
 }
 
@@ -190,8 +222,6 @@ background-color: orange;
   margin: 0 auto;
   display: flex;
   padding: 20px 0;
-  justify-content: center;
-  align-items: center;
 }
 
 .container-sm{
@@ -242,4 +272,12 @@ footer{
 
 hr{
   border: grey solid 2px;
+}
+
+li:first-of-type{
+  color: #3160e0;
+}
+
+li{
+  text-transform: capitalize;
 }
