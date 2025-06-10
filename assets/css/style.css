@@ -92,14 +92,18 @@ background-color: orange;
   color: white;
 }
 
+.text-align{
+  text-align: center;
+  vertical-align: baseline;
+}
+
 .text-black{
   color: black;
 }
 
 .white-aura{
   background-color: white;
-
-  padding: 5px;
+  border-radius: 50%;
 }
 
 .padding10 {
