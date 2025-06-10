@@ -1,0 +1,167 @@
+*{
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+header{
+    padding: 15px 0px;
+    background-color: #3160e0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/*utility*/
+
+.border-black{
+  border: solid 2px black;
+}
+
+.bg-orange{
+background-color: orange;
+}
+
+.bg-pink2{
+  background-color: rgb(185, 99, 113);
+}
+
+.bg-violet{
+  background-color: blueviolet;
+}
+
+.bg-blue{
+  background-color: #3160e0;
+}
+
+.bg-white{
+  background-color: rgb(245, 15, 15);
+}
+
+.bg-pink{
+  background-color: pink;
+}
+
+.bg-grey{
+  background-color: rgb(183, 183, 183);
+}
+
+.bg-green{
+  background-color: green;
+}
+
+.bg-salmon{
+  background-color: salmon;
+}
+
+.bg-dark{
+  background-color: #23272a;
+}
+
+.bg-wgreen{
+  background-color: #20b3aa;
+}
+
+.bg-cyan{
+  background-color: cyan;
+}
+
+.font{
+  font-family: ;
+}
+
+.padding10 {
+  padding: 10px 50px;
+}
+
+.col15{
+  width: 15%;
+}
+
+.col25{
+  width: 25%;
+}
+
+.col40{
+  width: 40%;
+}
+
+.col50{
+  width: 50%;
+}
+
+.col60{
+  width: 60%;
+}
+
+.col100{
+  width: 100%;
+}
+
+.py20{
+  padding: 20px 0;
+}
+
+.border-dotted{
+  border: dotted 2px black;
+}
+
+.border-d-white{
+  border: dotted white 1px;
+}
+
+.container{
+  max-width: 1000px;
+  min-height: 350px;
+  margin: 0 auto;
+  display: flex;
+  padding: 20px 0;
+}
+
+.container-sm{
+ width: 500px;
+ min-height: 250px;
+ justify-self: center;
+ align-self: center;
+}
+
+.container-wide{
+  max-width: 100%;
+  padding: 20px 0;
+}
+
+.container-high{
+  width: 1000px;
+  height: 500px;
+  justify-self: center;
+  align-self: center;
+}
+
+.container-mini{
+ width: 500px;
+ height: 50px;
+ display: flex;
+ justify-content: space-between;
+ align-items: center;
+}
+
+button {
+ width: 60px;
+ height: 25px;
+}
+
+footer{
+  display: flex;
+  justify-content: center;
+  padding-bottom: 0;
+}
+
+.footer-bottom{
+  display: flex;
+  justify-content: center;
+  align-items: end;
+}
+
+hr{
+  border: grey solid 2px;
+}
